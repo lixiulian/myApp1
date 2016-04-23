@@ -1,0 +1,376 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-04-13 16:21:41
+ * @version $Id$
+ */
+*{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-decoration:none;
+}
+html{
+    font-size:20px;
+}
+.wrap{
+    width:16rem;
+    margin:0 auto;
+  /*  background:#f00;*/
+    /*height:10rem;*/
+}
+header{
+    width:100%;
+    height:2.525rem;
+    background:-webkit-linear-gradient(#ffffff,#ebebeb);    
+}
+header a{
+    display: block;
+    width:3.025rem;
+    height:1.4rem;
+    background:url(../img/back.png) no-repeat;
+    background-size:contain;
+    box-shadow:2px 2px 2px #f2f2f2;
+    text-indent:-999rem;
+    margin:0.55rem 2.5rem 0rem 0.55rem;    
+}
+header h1{
+    width:3.7rem;
+    height:0.975rem;
+    background:url(../img/logo.png) no-repeat;
+    background-size:contain;
+    text-indent: -999rem;
+    margin-top:0.775rem;
+}
+section{
+    width:100%;
+}
+.ad{
+    width:100%;
+    overflow:hidden;
+}
+.ad .ad-list{
+    height:6.675rem;
+    width:500%;
+    overflow:hidden;
+}
+.ad .ad-list li{
+    width: 16rem;
+    float:left;
+}
+.ad .ad-list a{
+    display: block;
+
+}
+.ad .ad-list img{
+    width:100%;
+    height:6.675rem;
+}
+.ad .ad-dot{
+    padding:0.525rem 0;
+    padding-left:6.875rem;
+}
+.ad .ad-dot li{
+    width:0.25rem;
+    height:0.25rem;
+    background:#a9a9a9;
+    border-radius:50%;
+    float:left;
+    margin-right:0.25rem;
+}
+.ad .ad-dot li.on{
+    background:#ff4300;
+}
+.menu nav{
+     height:6.9rem;
+     padding:0.55rem 0;
+}
+.menu ul li{
+    width:25%;
+    float:left;
+}
+.menu ul li a{
+    display:block;    
+}
+.menu ul li img{
+    display:block;
+    margin:0 auto;
+    width:2rem;
+    height:2rem;
+}
+.menu ul li span{
+    display: block;
+    font-size:0.55rem;
+    color:#999;
+    height:1.45rem;
+    line-height:1.45rem;
+    text-align:center;
+}
+.menu ul li .cur {
+    position: relative;
+}
+.menu ul li .cur i{
+    position: absolute;
+    left: 20%;
+    top: 42%;
+    width:0.25rem;
+    height:0.25rem;
+    border-radius:50%;
+    background:#d51938;
+}
+.rank{
+    width:15rem;
+    margin:0 0.5rem;
+
+}
+.rank nav{
+    height:0.75rem;
+    width:15rem;
+    line-height: 0.75rem;
+    padding:0.525rem 0;
+     border-bottom:0.1rem solid #dcdcdc;
+}
+.rank nav h2{
+    border-left:0.1rem solid #d51938;
+    padding-left:0.45rem;
+}
+.rank nav h2,.rank nav span{ 
+    font-size:0.65rem;
+    color:#333;
+} 
+.rank .rank-list{
+    padding-top:0.775rem;
+}      
+.rank .rank-list li{
+    height:3rem;
+    width:100%;
+    margin-bottom:0.5rem;
+}
+.rank .rank-list li .num{
+    width:1.5rem;
+    height:3rem;
+    line-height:3rem;
+    font-size:1.2rem;
+    font-weight: bold;
+    font-family: "Arial","Microsoft Yahei","Hiragino Sans GB",sans-serif;
+    color:#fff;
+    text-align: center;
+} 
+.rank .rank-list li .one{
+    background:#e00202;
+}
+.rank .rank-list li .two{
+    background:#ff4800;
+}
+.rank .rank-list li .three{
+    background:#ff7300;
+}
+.rank .rank-list li .four{
+    background:#ff9d00;
+}
+.rank .rank-list li .five{
+    background:#ffa800;
+}
+.rank .rank-list li .six{
+    background:#ffb400;
+}
+.rank .rank-list li .seven{
+    background:#ffba00;
+}
+.rank .rank-list li .eight{
+    background:#fcd000;
+}
+.rank .rank-list li .nine{
+    background:#ffd719;
+
+}
+.rank .rank-list li .ten{
+    background:#ffe152;
+}
+
+.rank .rank-list li .pic{
+    width:4.5rem;
+    height:3rem;
+}
+.rank .rank-list li .detail{
+    font-size:0.95rem;
+    padding:0 0.55rem;
+    background: #f4f4f4;
+    width:7.9rem;
+    height:3rem;
+}
+.rank .rank-list li .detail-l{
+    width:65%;
+    padding: 0.6rem 0;
+}
+.rank .rank-list li .detail-r{
+    width:35%;
+}
+.rank .rank-list li .detail-l p,.rank .rank-list li .detail-l i,.rank .rank-list li .detail-l span{
+    height:0.9rem;
+    line-height: 0.9rem;
+    font-size:0.6rem;
+    color:#999;
+}
+.rank .rank-list li .detail-l .discount{
+    color:#c7223d;
+}
+.rank .rank-list li .detail-l .old-price{
+    text-decoration: line-through;
+}
+.rank .rank-list li .price{
+    font-size:0.8rem;
+    color:#d51938;
+    line-height: 3rem;
+        width: 85%;
+    display: block;
+}
+.rank .rank-list li a{
+    display: block;
+    width:0.325rem;
+    height:0.55rem;
+    background: url(../img/detail.png) no-repeat;
+    background-size: contain;
+    text-indent: -999rem;
+    margin-top:1.25rem;
+}
+.row-box{
+    width:15rem;
+    padding:0 0.5rem;
+}
+.row{
+    height:8.8rem;
+    width:100%;
+}
+.row ul{
+    width:11.25rem;
+    height:8.8rem;
+}
+.row h3{
+    width:3.75rem;
+    height:100%;
+}
+.row h3 a,.row h3 a img{
+    display: block;
+    width:3.75rem;
+    height:100%;    
+}
+.row ul{
+    border-bottom: 0.1rem solid #eee;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width:11.25rem;
+}
+.row ul li{
+    float:left;
+    /*width:calc(11.25rem / 3);*/
+    width:3.75rem;
+    height:2.2rem;
+    line-height:2.2rem;
+    text-align:center;
+    border-right: 0.1rem solid #eee;
+    border-top: 0.1rem solid #eee;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.row ul li a{
+    display: block;
+    font-size:0.65rem;
+    color:#b4b4b4; 
+}
+.row-sub{
+    height:2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    background:#f5f5f5;
+    margin:0.5rem 0;
+}
+.row-sub a{
+    font-size:0.65rem;
+    color:#666;
+}
+.app{
+    
+    
+}
+.app ul{
+    display:-webkit-box;
+    width:15rem;
+    height:4rem;
+}
+.app ul li{
+    -webkit-box-flex: 1;
+    text-indent: -999rem;
+    width:5rem;
+}
+.app a{
+    display:block;
+    width:100%;
+    height:4rem;
+}
+.app .app-iphone{
+    background: url(../img/app_1.png) no-repeat;
+    background-size: contain;
+}
+.app .app-android{
+    background: url(../img/app_2.png) no-repeat;
+    background-size: contain;
+}
+.app .advice{
+    background: url(../img/app_3.png) no-repeat;
+    background-size: contain;
+}
+.banner{
+	height:2.2rem;
+	width:16rem;
+	color:#f8f8f8;
+	line-height:2.2rem;
+}
+.banner a,.banner .top{
+	font-size:0.7rem;
+	color:#333;
+	padding-left:0.775rem;
+	font-weight:bold;
+}
+.banner .register{
+	padding-left:2.15rem;
+}
+.banner .top{
+	margin-right:0.5rem;
+}
+.banner .top-btn{
+	display:block;
+	margin-right:0.7rem;
+	border-left: 0.225rem solid transparent;
+    border-right: 0.225rem solid transparent;
+    border-bottom: 0.425rem solid #999;
+    height:0;
+    width:0;
+    padding-left:0;
+    margin-top:0.925rem;
+}
+footer{
+    height:3.175rem;
+    width:100%;
+    text-align:center;
+    background:#eee;
+}
+footer .version{
+    padding:1.025rem 0 0.775rem 0;
+    font-size:0.7rem;
+    font-weight:bold;
+ line-height:0.7rem;
+    height:0.7rem;
+    color:#333;
+}
+footer .version a{
+    color:#333;
+   
+}
+footer .copyright{
+    font-size:0.55rem;
+    color:#999;
+    height:0.55rem;
+    line-height:0.55rem;
+}
